@@ -33,11 +33,9 @@ J'ai un fichier `.env` qui ne sera pas commité (bien sûr c'est privé ça ! En
 
 ## API REST
 
-![request](./_docs/request.png)
-
-| Method | URL  | Description       |
-| ------ | ---- | ----------------- |
-| POST   | /    | Create one knight |
-| GET    | /    | Get all user      |
-| PUT    | /:id | Update one user   |
-| DELETE | /:id | Delete one user   |
+| Method | URL  | Description                          |
+| ------ | ---- | ------------------------------------ |
+| POST   | /    | Create one knight                    |
+| GET    | /    | Get all knight                       |
+| PUT    | /:id | Update one knight (change is_dubbed) |
+| DELETE | /:id | Delete one knight                    |
