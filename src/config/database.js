@@ -12,8 +12,10 @@ const database = mysql.createPool({
 database
 	.getConnection()
 	.then(() => {
-		console.log("Can reach database");
+		console.log("🔗 Connected to database");
 	})
 	.catch((err) => {
 		console.error(err);
 	});
+
+module.exports = database;
