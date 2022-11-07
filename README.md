@@ -18,17 +18,17 @@ J'ai un fichier `.env` qui ne sera pas commité (bien sûr c'est privé ça ! En
 ```txt
 .
 ├── README.md
-├── _docs
-│   └── request.png
 ├── package-lock.json
 ├── package.json
 ├── server.js
 └── src
     ├── config
     │   └── database.js
-    └── index.js
-
-3 directories, 7 files
+    ├── handlers
+    │   └── knightHandlers.js
+    ├── index.js
+    └── routes
+        └── knightRoutes.js
 ```
 
 ## API REST
