@@ -4,7 +4,7 @@ require("dotenv").config();
 // Ensuite, j'importe toutes mes dépendances dont j'ai besoin
 const express = require("express");
 const logger = require("morgan");
-const routes = require("./src/routes/index.js");
+const routes = require("./routes/knightRoutes");
 
 const app = express();
 
